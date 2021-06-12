@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(243, 242, 242);
+    z-index: -5;
+    margin: 0.4px;
+}
+
+.vuoto {
+    border: 3px solid red;
+}
+
+h1 {
+    text-align: center;
+    font-size: 220%;
+    color: rgb(12, 12, 161);
+}
+
+h3 {
+    text-align: center;
+    font-size: 150%;
+    color: red;
+}
+
+.login label {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 5px 0 5px 0;
+    width: 100%;
+    color: blue;
+    font-size: 150%;
+}
+
+input {
+    margin-left: 0.5em;
+}
+
+.a {
+    margin-right: 1%;
+    margin-left: 9.5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70%;
+}
+
+form a {
+    cursor: pointer;
+    color: red;
+}
+
+input.submit {
+    cursor: pointer;
+}
+
+footer {
+    height: 6%;
+    border: 3px solid blue;
+    background-color: yellow;
+    color: green;
+    text-align: center;
+    font-size: 150%;
+    border-radius: 20px;
+    margin-top: 1.5%;
+}
+
+header {
+    border: 3px solid blue;
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+    font-size: 150%;
+    border-radius: 20px;
+}
+
+@media(max-width:500px) {
+    footer {
+        font-size: 12px;
+    }
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 69.5%;
+}
+
+p {
+    text-align: center;
+    color: red;
+    padding-top: 20%
+}
+
+form #b {
+    margin-right: 40%;
+}
+
+#stile a {
+    display: block;
+    color: black;
+    cursor: pointer;
+    font-size: 150%;
+    border: 2px solid red;
+    border-radius: 8px;
+    background-color: yellow;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#sponsor {
+    color: red;
+    font-size: 130%;
+}
